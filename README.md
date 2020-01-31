@@ -1,7 +1,31 @@
 # ESP8266 Car Controller
 
-A simple web based controller app for the ESP8266 Car Fleet
+A simple web based controller app for the ESP8266 Car Fleet.
 
+### Quick Start
+
+Update the broker details in src/scripts/index.js for your broker:
+
+```
+            url: "wss://mr1u6o37qn55r9.messaging.solace.cloud:8443",
+            vpnName: "hackathon-car-demo",
+            userName: "solace-cloud-client",
+            password: "cm6uqak4r3lubmarfh10mfh357"
+```
+
+Build the docker container:
+
+```
+dockerBuild.sh
+```
+
+Run the docker container:
+
+```
+dockerRun.sh
+```
+
+Navigate to http://localhost:8080
 
 ### Installation
 
