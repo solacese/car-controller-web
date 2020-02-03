@@ -172,7 +172,7 @@ function Messaging() {
             url: "wss://mr1u6o37qn55r9.messaging.solace.cloud:8443",
             vpnName: "hackathon-car-demo",
             userName: "solace-cloud-client",
-            password: ""
+            password: "cm6uqak4r3lubmarfh10mfh357"
         });
     } catch (error) {
         console.error(error);
